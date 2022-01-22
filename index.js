@@ -12,3 +12,7 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+
+
+//to run node index.js
+//npm install -g nodemon
